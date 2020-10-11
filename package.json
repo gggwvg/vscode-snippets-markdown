@@ -2,7 +2,7 @@
     "name": "snippets-markdown",
     "displayName": "snippets-markdown",
     "description": "vscode markdown snippets",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "gggwvg",
     "icon": "images/icon.jpg",
     "engines": {
@@ -11,9 +11,6 @@
     "license": "See LICENSE in code repo",
     "categories": [
         "Snippets"
-    ],
-    "activationEvents": [
-        "onLanguage:markdown"
     ],
     "repository": {
         "type": "git",
