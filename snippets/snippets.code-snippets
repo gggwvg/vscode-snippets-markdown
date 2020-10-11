@@ -1,0 +1,14 @@
+{
+    "link": {
+		"prefix": "lk",
+		"body": "[$1]($2)"
+	},
+	"link with clipboard url": {
+		"prefix": "lku",
+		"body": "[$1]($CLIPBOARD)"
+	},
+	"link with clipboard text": {
+		"prefix": "lkt",
+		"body": "[$CLIPBOARD]($1)"
+	}
+}

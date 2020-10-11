@@ -1,0 +1,35 @@
+{
+    "name": "snippets-markdown",
+    "displayName": "snippets-markdown",
+    "description": "vscode markdown snippets",
+    "version": "0.0.1",
+    "publisher": "gggwvg",
+    "icon": "images/icon.jpg",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "license": "See LICENSE in code repo",
+    "categories": [
+        "Snippets"
+    ],
+    "activationEvents": [
+        "onLanguage:markdown"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gggwvg/vscode-snippets-markdown.git"
+    },
+    "homepage": "https://github.com/gggwvg/vscode-snippets-markdown/blob/master/README.md",
+    "bugs": {
+        "url": "https://github.com/gggwvg/vscode-snippets-markdown/issues",
+        "email": "ggggwvg@gmail.com"
+    },
+    "contributes": {
+        "snippets": [
+            {
+                "language": "markdown",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
